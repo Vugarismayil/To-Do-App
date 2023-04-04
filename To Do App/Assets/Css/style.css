@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#all{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 251px;
+    margin-bottom: 66px;
+    padding: 20px;
+}
+
+#list{
+    
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.inp {
+    color: green;
+}
+
+.bttn {
+    border-radius: 20px;
+    padding: 10px 80px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.del {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 65px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+

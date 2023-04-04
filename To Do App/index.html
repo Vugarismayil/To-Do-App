@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/Css/bootstrap.css">
+    <link rel="stylesheet" href="/Assets/Css/style.css">
+    <title>To Do App</title>
+</head>
+
+<body>
+    <div id="all">
+        <label for="Input">To Do App</label>
+        <br><br>
+        <p>Tasks: <span id="count">0</span></p>
+        <br>
+        <input type="text" id="Input" onkeydown="if (event.keyCode === 13) add()" class="inp">
+        <button onclick="add()" class="bg-success border-3 bttn">Add</button>
+        <div class="notask">
+            <h1 class="taskmsg"></h1>
+        </div>
+        <div id="list"></div>
+
+        <button onclick="Alldelete()" class="del">All Delete</button>
+        
+        
+    </div>
+   
+    <div class="message">
+    
+    </div>
+
+
+
+    <script src="ToDoApp.js"></script>
+</body>
+
+</html>
